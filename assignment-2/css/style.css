@@ -1,0 +1,199 @@
+/** Add Font and remove Margin **/
+body, h1, h2, h3, h4, h5, h6, p, input {
+    font-family: "Poppin", sans-serif;
+    margin: 0;
+}
+
+/** Header **/
+header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #216492;
+}
+
+header > div {
+    flex-grow: 1;
+    height: 100%;
+    width: auto;
+}
+
+header > div > a > img {
+    height: 100%;
+    width: auto;
+}
+
+/** Nav **/
+nav > menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav > menu > li > a > i {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/** Masterhead **/
+.masterhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    /** Add backgroud Image, Overlay and Adjusted **/
+    background: linear-gradient(#000000bf, #000000bf), url('../img/bg-masterhero.jpeg');
+    background-position: center;
+}
+
+.masterhead > h1 {
+    color: white;
+    font-size: 68px;
+}
+
+/** Main **/
+main {
+    background-color: #f5f6f3;
+    padding: 10px;
+}
+
+main > form {
+    display: flex;
+}
+
+main > form > section:nth-child(1) {
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 15px;
+}
+
+main > form > section:nth-child(2) {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main > form > section:nth-child(2) > div {
+    background-color: #ffffff;
+}
+
+main > form > section:nth-child(2) > input {
+    background-color: #e43638;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border: 0px;
+    border-radius: 6px;
+}
+
+main > form > section:nth-child(2) > div > h2 {
+    background: #216492;
+    text-align: center;
+    color: #ffffff;
+    padding: 5px 0px;
+}
+
+main > form > section:nth-child(2) > div:nth-child(1) > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main > form > section:nth-child(2) > div > div {
+    padding: 10px;
+    border: 1px solid #4a4a4a4a;
+}
+
+main > form > section:nth-child(2) > div + div + div > div > h3 {
+    color: #216492;
+    margin-bottom: 8px;
+}
+
+main > form > section:nth-child(2) > div + div + div > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+
+main > form > section:nth-child(2) > div + div + div > div > hr {
+    margin: 12px 0px
+}
+
+main .info > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .info > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+main .info > div > div > textarea {
+    resize: vertical;
+}
+
+/** Card Pizza **/
+.card {
+    width: 19%;
+}
+
+.card .qty-size {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.card .qty-size .qty label, .card .qty-size .size label {
+    color: #e43638;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.card .qty-size .qty input {
+    width: 30px;
+}
+
+.card .image {
+    margin-bottom: 15px;
+}
+
+.card .image > img {
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    color: #216492;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.card .description > p {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+/** Footer **/
+footer {
+    height: 40px;
+    background-color: #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > p {
+    color: #4a4a4a;
+    font-size: 12px;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}

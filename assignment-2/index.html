@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Create your own one-page pizza shop website that a user could use to order a pizza.">
+    <title>Assignment 2 | Pizza Shop</title>
+    <meta name="robots" content="noindex, nofollow">
+    <!-- Add Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Add CSS File -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Add FontAwesome -->
+    <script src="https://kit.fontawesome.com/4dbfaa32c4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <div><a href="index.html"><img src="./img/logo.svg" alt="Logo Pizza" ></a></div>
+        <nav>
+            <menu>
+                <li><a href="#"><i class="fas fa-search"></i></a></li>
+                <li><a href="#"><i class="fas fa-user"></i></a></li>
+                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+            </menu>
+        </nav>
+    </header>
+    <!-- Masterhead section -->
+    <div class="masterhead">
+        <h1>Order your Pizza</h1>
+    </div>
+    <!-- Main section -->
+    <main>
+        <!-- Start form order-->
+        <form action="somefile" method="post">
+            <!-- Menu section about all Pizza -->
+            <section>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/veggie.jpeg" alt="Veggie">
+                    </div>
+                    <div class="qty-size">
+                    <!-- Handle Quantity Input -->
+                        <div class="qty">
+                            <label>Qty:</label>
+                            <input name="qty" type="number" min="0" value="0">
+                        </div>
+                        <!-- Handle Size Input -->
+                        <div class="size">
+                            <label>Size:</label>
+                            <select name="size">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                        </div>
+                    </div>
+                    <h2>Veggie</h2>
+                    <div class="description">
+                        <p>A medley of fresh green peppers, onion, tomatoes, mushrooms, and olives.</p>
+                        <p>Cals 180-290 per slice; 6 slices</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/extravaganzza.jpeg" alt="ExtravaganZZa">
+                    </div>
+                    <div class="qty-size">
+                    <!-- Handle Quantity Input -->
+                        <div class="qty">
+                            <label>Qty:</label>
+                            <input name="qty" type="number" min="0" value="0">
+                        </div>
+                        <!-- Handle Size Input -->
+                        <div class="size">
+                            <label>Size:</label>
+                            <select name="size">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                        </div>
+                    </div>
+                    <h2>ExtravaganZZa</h2>
+                    <div class="description">
+                        <p>Loads of pepperoni, ham, savory Italian sausage, beef crumble, fresh onions, fresh green peppers, fresh mushrooms and black olives with extra cheese.</p>
+                        <p>Cals 250-400 per slice; 6 slices</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/brooklyn.jpeg" alt="Brooklyn">
+                    </div>
+                    <div class="qty-size">
+                    <!-- Handle Quantity Input -->
+                        <div class="qty">
+                            <label>Qty:</label>
+                            <input name="qty" type="number" min="0" value="0">
+                        </div>
+                        <!-- Handle Size Input -->
+                        <div class="size">
+                            <label>Size:</label>
+                            <select name="size">
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                        </div>
+                    </div>
+                    <h2>Brooklyn</h2>
+                    <div class="description">
+                        <p>Specifically engineered to be big, thin, and perfectly foldable.</p>
+                        <p>Cals 340-350 per slice; 6 slices</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/bbq-chicken-bacon.jpeg" alt="BBQ Chicken Bacon">
+                    </div>
+                    <div class="qty-size">
+                        <!-- Handle Quantity Input -->
+                            <div class="qty">
+                                <label>Qty:</label>
+                                <input name="qty" type="number" min="0" value="0">
+                            </div>
+                            <!-- Handle Size Input -->
+                            <div class="size">
+                                <label>Size:</label>
+                                <select name="size">
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                </select>
+                            </div>
+                        </div>
+                    <h2>BBQ Chicken Bacon</h2>
+                    <div class="description">
+                        <p>Smothered in flavourful BBQ sauce and loaded with all white-meat chicken, bacon, fresh onions, green peppers and a mozzarella/cheddar cheese blend.</p>
+                        <p>Cals 230-350 per slice</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/canadian.jpeg" alt="Canadian">
+                    </div>
+                    <div class="qty-size">
+                        <!-- Handle Quantity Input -->
+                            <div class="qty">
+                                <label>Qty:</label>
+                                <input name="qty" type="number" min="0" value="0">
+                            </div>
+                            <!-- Handle Size Input -->
+                            <div class="size">
+                                <label>Size:</label>
+                                <select name="size">
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                </select>
+                            </div>
+                        </div>
+                    <h2>Canadian</h2>
+                    <div class="description">
+                        <p>Loads of pepperoni, fresh mushrooms, and smoked bacon, topped with an extra layer of premium mozzarella cheese.</p>
+                        <p>Cals 230-370 per slice; 6 slices</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/deluxe.jpeg" alt="Deluxe">
+                    </div>
+                    <div class="qty-size">
+                        <!-- Handle Quantity Input -->
+                            <div class="qty">
+                                <label>Qty:</label>
+                                <input name="qty" type="number" min="0" value="0">
+                            </div>
+                            <!-- Handle Size Input -->
+                            <div class="size">
+                                <label>Size:</label>
+                                <select name="size">
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                </select>
+                            </div>
+                        </div>
+                    <h2>Deluxe</h2>
+                    <div class="description">
+                        <p>A mouth-watering combination of pepperoni, savory Italian sausage, fresh green peppers, fresh mushrooms, fresh onions and cheese.</p>
+                        <p>Cals 210-330 per slice; 6 slices</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/hawaiian.jpeg" alt="Hawaiian">
+                    </div>
+                    <div class="qty-size">
+                        <!-- Handle Quantity Input -->
+                            <div class="qty">
+                                <label>Qty:</label>
+                                <input name="qty" type="number" min="0" value="0">
+                            </div>
+                            <!-- Handle Size Input -->
+                            <div class="size">
+                                <label>Size:</label>
+                                <select name="size">
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                </select>
+                            </div>
+                        </div>
+                    <h2>Hawaiian</h2>
+                    <div class="description">
+                        <p>Succulent pineapple and slices of ham topped with an extra layer of cheese.</p>
+                        <p>Cals 200-320 per slice; 6 slices</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/meatzza.jpeg" alt="MeatZZa">
+                    </div>
+                    <div class="qty-size">
+                        <!-- Handle Quantity Input -->
+                            <div class="qty">
+                                <label>Qty:</label>
+                                <input name="qty" type="number" min="0" value="0">
+                            </div>
+                            <!-- Handle Size Input -->
+                            <div class="size">
+                                <label>Size:</label>
+                                <select name="size">
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                </select>
+                            </div>
+                        </div>
+                    <h2>MeatZZa</h2>
+                    <div class="description">
+                        <p>Slice after slice of pepperoni, ham, savory Italian sausage and beef crumble topped with an extra layer of cheese.</p>
+                        <p>Cals 240-390 per slice; 6 slices</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/philly-steak.jpeg" alt="Philly Steak">
+                    </div>
+                    <div class="qty-size">
+                        <!-- Handle Quantity Input -->
+                            <div class="qty">
+                                <label>Qty:</label>
+                                <input name="qty" type="number" min="0" value="0">
+                            </div>
+                            <!-- Handle Size Input -->
+                            <div class="size">
+                                <label>Size:</label>
+                                <select name="size">
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                </select>
+                            </div>
+                        </div>
+                    <h2>Philly Steak</h2>
+                    <div class="description">
+                        <p>Loaded with tender slices of steak, onions, green peppers, mushrooms, and 3 different types of cheese.</p>
+                        <p>Cals 210-310 per slice; 6 slices</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/pepperoni-feast.jpeg" alt="Pepperoni Feast">
+                    </div>
+                    <div class="qty-size">
+                        <!-- Handle Quantity Input -->
+                            <div class="qty">
+                                <label>Qty:</label>
+                                <input name="qty" type="number" min="0" value="0">
+                            </div>
+                            <!-- Handle Size Input -->
+                            <div class="size">
+                                <label>Size:</label>
+                                <select name="size">
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                </select>
+                            </div>
+                        </div>
+                    <h2>Pepperoni Feast</h2>
+                    <div class="description">
+                        <p>Lots and lots of pepperoni topped with an extra layer of cheese.</p>
+                        <p>Cals 220-260 per slice; 6 slices</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/chicken-bacon-alfredo.jpeg" alt="Chicken Bacon Alfredo">
+                    </div>
+                    <div class="qty-size">
+                        <!-- Handle Quantity Input -->
+                            <div class="qty">
+                                <label>Qty:</label>
+                                <input name="qty" type="number" min="0" value="0">
+                            </div>
+                            <!-- Handle Size Input -->
+                            <div class="size">
+                                <label>Size:</label>
+                                <select name="size">
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                </select>
+                            </div>
+                        </div>
+                    <h2>Chicken Bacon Alfredo</h2>
+                    <div class="description">
+                        <p>An Alfredo Sauce base with a Mozzarella/Cheddar Cheese blend, fresh mushrooms, onions, all white-meat chicken, bacon and Provolone cheese.</p>
+                        <p>Cals 240-370 per slice; 6 slices</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/chicken-bacon-ranch.jpeg" alt="Chicken Bacon Ranch">
+                    </div>
+                    <div class="qty-size">
+                        <!-- Handle Quantity Input -->
+                            <div class="qty">
+                                <label>Qty:</label>
+                                <input name="qty" type="number" min="0" value="0">
+                            </div>
+                            <!-- Handle Size Input -->
+                            <div class="size">
+                                <label>Size:</label>
+                                <select name="size">
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                </select>
+                            </div>
+                        </div>
+                    <h2>Chicken Bacon Ranch</h2>
+                    <div class="description">
+                        <p>A Ranch Sauce base with a Mozzarella/Cheddar Cheese blend, fresh tomatoes, green peppers, all white-meat chicken and bacon.</p>
+                        <p>Cals 220-340 per slice; 6 slices</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/pacific-veggie.jpeg" alt="Pacific Veggie">
+                    </div>
+                    <div class="qty-size">
+                        <!-- Handle Quantity Input -->
+                            <div class="qty">
+                                <label>Qty:</label>
+                                <input name="qty" type="number" min="0" value="0">
+                            </div>
+                            <!-- Handle Size Input -->
+                            <div class="size">
+                                <label>Size:</label>
+                                <select name="size">
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                </select>
+                            </div>
+                        </div>
+                    <h2>Pacific Veggie</h2>
+                    <div class="description">
+                        <p>Roasted red peppers, fresh baby spinach, fresh onions, fresh mushrooms, tomatoes, black olives, feta, provolone, cheese made with 100% real mozzarella and sprinkled with a garlic herb seasoning.</p>
+                        <p>Cals 200-300 per slice; 6 slices</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/spinach-and-feta.jpeg" alt="Spinach and Feta">
+                    </div>
+                    <div class="qty-size">
+                        <!-- Handle Quantity Input -->
+                            <div class="qty">
+                                <label>Qty:</label>
+                                <input name="qty" type="number" min="0" value="0">
+                            </div>
+                            <!-- Handle Size Input -->
+                            <div class="size">
+                                <label>Size:</label>
+                                <select name="size">
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                </select>
+                            </div>
+                        </div>
+                    <h2>Spinach and Feta</h2>
+                    <div class="description">
+                        <p>Creamy Alfredo sauce, fresh baby spinach, fresh onions, feta, Parmesan-Asiago, provolone and cheese made with 100% real mozzarella.</p>
+                        <p>Cals 210-310 per slice; 10 slices</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/pizza/6-cheese.jpeg" alt="6 Cheese">
+                    </div>
+                    <div class="qty-size">
+                        <!-- Handle Quantity Input -->
+                            <div class="qty">
+                                <label>Qty:</label>
+                                <input name="qty" type="number" min="0" value="0">
+                            </div>
+                            <!-- Handle Size Input -->
+                            <div class="size">
+                                <label>Size:</label>
+                                <select name="size">
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                </select>
+                            </div>
+                        </div>
+                    <h2>6 Cheese</h2>
+                    <div class="description">
+                        <p>Covered with Feta, provolone, cheddar, Parmesan-Asiago, and mozzarella cheese finished with a sprinkle of oregano.</p>
+                        <p>Cals 220-350 per slice; 6 slices</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Section for adding toping, sauce, ... and submit button-->
+            <section>
+                <div>
+                    <h2>CHEESE</h2>
+                    <div>
+                        <div>
+                            <input name="cheese" type="radio" value="none">
+                            <label>None</label>
+                            <br>
+                            <input name="cheese" type="radio" value="light">
+                            <label>Light</label>
+                            <br>
+                            <input name="cheese" type="radio" value="normal" checked>
+                            <label>Normal</label>
+                        </div>
+                        <div>
+                            <input name="cheese" type="radio" value="extra">
+                            <label>Extra</label>
+                            <br>
+                            <input name="cheese" type="radio" value="double">
+                            <label>Double</label>
+                            <br>
+                            <input name="cheese" type="radio" value="triple">
+                            <label>Triple</label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2>SAUCE</h2>
+                    <div>
+                        <input name="sauce" type="radio" value="pizza sauce" checked>
+                        <label>Pizza Sauce</label>
+                        <br>
+                        <input name="sauce" type="radio" value="bbq sauce">
+                        <label>BBQ Sauce</label>
+                        <br>
+                        <input name="sauce" type="radio" value="alfredo sauce">
+                        <label>Alfredo Sauce</label>
+                        <br>
+                        <input name="sauce" type="radio" value="hearty marinara sauce">
+                        <label>Hearty Marinara Sauce</label>
+                        <br>
+                        <input name="sauce" type="radio" value="ranch dressing">
+                        <label>Ranch Dressing</label>
+                        <br>
+                        <input name="sauce" type="radio" value="garlic parmesan sauce">
+                        <label>Garlic Parmesan Sauce</label>
+                    </div>
+                </div>
+                <div>
+                    <h2>TOPING</h2>
+                    <div>
+                        <h3>Choose Meats</h3>
+                        <div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Pepperoni">
+                                <label>Pepperoni</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Brooklyn Pepperoni">
+                                <label>Brooklyn Pepperoni</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Sausage">
+                                <label>Sausage</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Beef Crumble">
+                                <label>Beef Crumble</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Ham">
+                                <label>Ham</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Bacon">
+                                <label>Bacon</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Chicken">
+                                <label>Chicken</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Philly Steak">
+                                <label>Philly Steak</label>
+                            </div>
+                        </div>
+                        <hr>
+                        <h3>Choose Non-meats</h3>
+                        <div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Cheddar">
+                                <label>Cheddar</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Feta">
+                                <label>Feta</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Parmesan Asiago">
+                                <label>Parmesan Asiago</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Provolone">
+                                <label>Provolone</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Hot Banana Peppers">
+                                <label>Hot Banana Peppers</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Black Olives">
+                                <label>Black Olives</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Green Olives">
+                                <label>Green Olives</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Green Pepper">
+                                <label>Green Pepper</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Mushroom">
+                                <label>Mushroom</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Pineapple">
+                                <label>Pineapple</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Onion">
+                                <label>Onion</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Tomatoes">
+                                <label>Tomatoes</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Jalapeno Peppers">
+                                <label>Jalapeno Peppers</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Baby Spinach">
+                                <label>Baby Spinach</label>
+                            </div>
+                            <div>
+                                <input name="toping" type="checkbox" value="Roasted Red Peppers">
+                                <label>Roasted Red Peppers</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="ORDER">
+                <div class="info">
+                    <h2>Information</h2>
+                    <div>
+                        <div>
+                            <label>Name</label>
+                            <input name="name" type="text" required>
+                        </div>
+                        <div>
+                            <label>Email</label>
+                            <input name="email" type="email" required>
+                        </div>
+                        <div>
+                            <label>Address</label>
+                            <input name="address" required>
+                        </div>
+                        <div>
+                            <label>Notes</label>
+                            <textarea rows="5" name="notes"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </form>
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <p>©2024 Georgian College | HTML, CSS, JS Fund | Truong Pham</p>
+    </footer>
+</body>
+</html>
